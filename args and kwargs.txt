@@ -1,0 +1,8 @@
+# args and kwargsprogram.
+def Fun(my1, my2):
+    print("my1:", my1)
+    print("my2:", my2)
+args = ("pen", "pencil")
+Fun(*args)
+kwargs = {"my1" : "pen", "my2" : "pencil"}
+Fun(**kwargs)
